@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-       <v-navigation-drawer v-model="showNav" absolute fixed floating app>
+      <v-navigation-drawer v-model="showNav" absolute fixed floating app>
         <main-menu :currentView="currentView"></main-menu>
       </v-navigation-drawer>
       <v-toolbar app dark flat color="primary">
