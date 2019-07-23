@@ -37,7 +37,8 @@ const DEMO_INFO = [
   { model: 'ResNet50', title: 'ResNet, trained on ImageNet', path: 'resnet50'},  
   { model: 'Emotion FerPlus', title: 'Emotion FerPlus', path: 'emotion_ferplus'},
   { model: 'Yolo', title: 'Yolo', path: 'yolo'},
-  { model: 'MNIST', title: 'MNIST', path: 'mnist'}, 
+  { model: 'MNIST', title: 'MNIST', path: 'mnist'},
+  { model: 'CSRNet', title: 'CSRNet, trained on ShanghaiTech Dataset', path: 'csrnet'},
 ];
 
 @Component
