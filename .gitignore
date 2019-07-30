@@ -71,3 +71,6 @@ typings/
 
 # OS X Desktop Services Store
 .DS_Store
+
+# vscode config
+.vscode/
