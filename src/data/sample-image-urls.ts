@@ -58,3 +58,12 @@ export const YOLO_IMAGE_URLS = [
   { text: 'two chairs', value: 'https://farm4.staticflickr.com/3049/2327691528_f060ee2d1f.jpg'},
   { text: 'cow', value: 'https://farm3.staticflickr.com/2042/2203964933_f1b80a18ba.jpg'}
 ];
+
+export const CSRNET_IMAGE_URLS = [
+  { text: 'sample 1', value: require('@/assets/CrowdCountingSampleImages/20190601001939.jpg') },
+  { text: 'sample 2', value: require('@/assets/CrowdCountingSampleImages/basketball_team_1.jpg') },
+  { text: 'sample 3', value: require('@/assets/CrowdCountingSampleImages/crowd.jpg') },    
+  { text: 'sample 4', value: require('@/assets/CrowdCountingSampleImages/XXXXGAY.png') },
+  // tslint:disable-next-line:max-line-length
+  { text: 'sample 5', value: require('@/assets/CrowdCountingSampleImages/John_B._Larson_and_crowd_at_Barack_Obama_rally_February_4_2008.jpg') }
+];

@@ -3,7 +3,8 @@ export const DEMO_TITLES: {[key: string]: string} = {
   squeezenet: 'SqueezeNet, trained on ImageNet', 
   emotion_ferplus: 'FER+ Emotion, real-time emotion detection',   
   yolo: 'Yolo, real-time object detection',
-  mnist: 'MNIST, handwritten digit prediction'
+  mnist: 'MNIST, handwritten digit prediction',
+  csrnet: 'CSRNet, crowd counting trained on ShanghaiTech dataset'
 };
 
 export const DEMO_DESCRIPTIONS: {[key: string]: string} = {
@@ -11,7 +12,8 @@ export const DEMO_DESCRIPTIONS: {[key: string]: string} = {
   squeezenet: 'SqueezeNet is a light-weight convolutional networks for image classification.', 
   emotion_ferplus: 'FER+ Emotion, a deep convolutional neural network for emotion recognition in faces.',  
   yolo: 'YOLO can detect multiple objects in an image and puts bounding boxes around these objects.',
-  mnist: 'MNIST, handwritten digit prediction.'
+  mnist: 'MNIST, handwritten digit prediction.',
+  csrnet: 'CSRNet is a convolutional network for counting the number of people in a crowd.'
 };
 
 export const DEMO_MODEL_LINKS: {[key: string]: string} = {
@@ -19,5 +21,6 @@ export const DEMO_MODEL_LINKS: {[key: string]: string} = {
   squeezenet: 'https://github.com/onnx/models/tree/master/models/image_classification/squeezenet',
   emotion_ferplus: 'https://github.com/onnx/models/tree/master/emotion_ferplus',
   yolo:'https://github.com/onnx/models/tree/master/tiny_yolov2',
-  mnist: 'https://github.com/onnx/models/tree/master/mnist'
+  mnist: 'https://github.com/onnx/models/tree/master/mnist',
+  csrnet: 'https://github.com/onnx/models/tree/master/csrnet'
 };
